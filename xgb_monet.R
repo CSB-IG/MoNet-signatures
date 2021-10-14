@@ -57,7 +57,8 @@ xgb_imp <- xgb.importance(
     model = xgb_model$finalModel
 )
 
-#xgb_imp %>% write.csv("feature_importance.csv", row.names = F)
+## Write the supplementary file
+xgb_imp %>% write.csv("feature_importance.csv", row.names = F)
 
 #### Visualize the feature importance ###
 xgb.ggplot.importance(
