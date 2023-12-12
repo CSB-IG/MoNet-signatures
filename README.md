@@ -3,7 +3,7 @@
 # Guide for Reproducibility
 
 ## Main workflow
-0. proprocessing
+0. preprocessing
     - prepro-mRNA.R
     - prepro-methy.R
     - prepro-miRNA.R
